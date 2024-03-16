@@ -1,0 +1,73 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    /* padding: 5px; */
+    height: 50px;
+    background-color: rgb(230, 209, 183);
+
+}
+.nav>a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(243, 101, 101);
+}
+
+.nav>a:hover
+{
+    color: RED;
+}
+.nav>a:active{
+    background-color: bisque;
+}
+#about
+{
+    border: 2px solid plum;
+    margin: 3%;
+}
+#about>h3{
+    text-align: center;
+    color: brown;
+}
+#about>p{
+    padding: 2%;
+}
+
+
+.myform{
+    background-image: url('https://wallpapers.com/images/hd/light-color-pink-and-blue-background-8zrww1yggwb8mbh3.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin: 0px;
+    padding: 50px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    width: 1000px;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3%;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
